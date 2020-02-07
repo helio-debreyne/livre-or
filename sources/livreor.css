@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+
+.accueil{
+background: rgb(74,39,0);
+background: radial-gradient(circle, rgba(74,39,0,1) 0%, rgba(36,30,0,1) 100%);
+background-attachment:fixed;	
+background-size:cover;
+margin:0;
+padding:0;
+}
+
+.inscription{
+/* background-image:url(../img/fondinscription.jpg); */
+background: rgb(74,39,0);
+background: radial-gradient(circle, rgba(74,39,0,1) 0%, rgba(36,30,0,1) 100%);
+background-attachment:fixed;
+margin:0;
+padding:0;	
+}
+
+.connexion{
+background-image:url(../img/fondconnexion1.jpg);
+background-attachment:fixed;	
+background-size:cover;
+margin:0;
+padding:0;	
+}
+
+.profil{
+background-image:url(../img/fond-profil.jpg);
+background-attachment:fixed;	
+background-size:cover;
+margin:0;
+padding:0;		
+}
+
+.commentaire{
+background-image:url(../img/studio.jpg);
+background-attachment:fixed;	
+background-size:cover;
+margin:0;
+padding:0;		
+}
+
+.livredor{
+background-image:url(../img/fond-livredor.jpg);	
+background-attachment:fixed;	
+background-size:cover;
+margin:0;
+padding:0;	
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 18px;
+  text-shadow: black 0.1em 0.1em 0.2em; 
+  display:flex;
+  background: rgb(34,18,0);
+  background: radial-gradient(circle, rgba(34,18,0,0.6143499636182599) 0%, rgba(57,14,0,1) 100%);
+  text-align: center;
+}
+
+
+.ul2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 18px;
+  text-shadow: black 0.1em 0.1em 0.2em; 
+  display:flex;
+  background-color: rgba(79, 70, 62, 0.54);
+   
+}
+
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  font-family: 'Varela Round', sans-serif;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+ border-bottom: 2px solid white;
+ height:18.5px;
+}
+
+
+.connexionform{
+  width:22%;
+  min-width:190px;
+  border-radius: 15px;
+  background: rgb(50,119,154);
+  background: linear-gradient(0deg, rgba(50,119,154,1) 0%, rgba(0,0,0,1) 100%);
+  background-size:cover;
+  padding: 20px; 
+  text-align: center;
+}
+
+
+.connexionform2{
+  width:22%;
+  min-width:190px;
+  border-radius: 30px;
+  background-size:cover;
+  padding: 20px; 
+  text-align: center;
+}
+
+.inscriptionform{
+  width:22%;
+  min-width:190px;
+  border-radius: 15px;
+  background: rgb(191,134,48);
+  background: radial-gradient(circle, rgba(191,134,48,1) 0%, rgba(51,10,1,1) 100%);
+  padding: 20px; 
+  text-align: center;
+  color:red;
+}
+
+.logo{
+margin-bottom:8%;		
+border-radius: 50%;
+}
+
+input[type=text], select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 15px;
+  box-sizing: border-box;  
+  font-family: 'Varela Round', sans-serif;
+}
+
+input[type=password], select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 15px;
+  box-sizing: border-box;
+  font-family: 'Varela Round', sans-serif;
+}
+
+
+
+input[type=submit] {
+  width: 50%;
+  background-color: #df773b ;
+  color: white;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; 
+  margin-top:3%;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-family: 'Varela Round', sans-serif;
+}
+
+input[type=reset] {
+  width: 50%;
+  background-color: #df773b ;
+  color: white;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; 
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-family: 'Varela Round', sans-serif;
+}
+
+input[type=submit]:hover {
+  background-color: #5c380c;
+}
+input[type=reset]:hover {
+  background-color: #5c380c;
+}
+
+.form{
+display:flex;
+justify-content:center;
+margin-top:5%;
+}
+
+
+
+.déconnexion{
+width:150px;
+}
+
+.bouton{
+display:flex;
+justify-content:flex-end;
+width:73%;
+}
+
+.boutondeco{
+display:flex;
+justify-content:flex-end;
+width:100%;	
+	
+}
+
+.commentaireform{
+  width:950px;
+  border-radius: 15px;
+  background-size:cover;
+  padding: 50px; 
+  text-align: center;
+}
+
+.espace_commentaire{
+resize:none;
+border-radius: 10px;
+width:800px;
+height:200px;	
+}
+
+.remerciementcommentaire{
+text-align:center;
+color: red;
+font-size:25px;	
+font-family: 'Calistoga', cursive;
+}
+
+td{
+background: linear-gradient(0deg, rgba(255,255,255,1) 20%, rgba(0,0,0,1) 100%);
+border:1px solid black;	
+border-radius: 5px;
+width:70%;	
+height:50px;
+color: white;
+font-family: 'Varela Round', sans-serif;
+text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.espacecommentaire{
+display:flex;
+justify-content:center;
+margin-top:5%;	
+}
+
+.connexioncommentaire{
+
+text-align:center;
+margin-top:15%;
+height:100px;
+width:50%;
+font-family: 'Varela Round', sans-serif;
+text-shadow: black 0.1em 0.1em 0.2em; 
+font-size:25px;
+border-radius:15px;
+color:white;
+}
+
+.phraseconnexion{
+width:100%;	
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.button{
+display:flex;
+justify-content:center;
+margin-top:3%;	
+}
+
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 5px;
+    background: rgb(170,36,0);
+    background: linear-gradient(0deg, rgba(170,36,0,1) 20%, rgba(0,0,0,1) 100%);
+    font-family: 'Varela Round', sans-serif;
+}
+
+.styled:hover {
+    background-color: #17202A ;
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.presentationdurp{
+margin-top:5%;
+}
+
+.img{
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+.textrp{
+text-align: center;
+width:100%;	
+color:white;
+font-family: 'Varela Round', sans-serif;
+text-shadow: black 0.1em 0.1em 0.2em; 
+}
+
+.presentationdurp2{
+  margin-top:5%;
+  }
+  
+  .img2{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  }
+  
+  .textrp2{
+  text-align: center;
+  width:100%;	
+  color:white;
+  font-family: 'Varela Round', sans-serif;
+  text-shadow: black 0.1em 0.1em 0.2em; 
+}
+
+.serveursimages{
+display:flex;
+flex-direction:column;	
+margin-top:5%;	
+align-items:center;
+color:white;
+font-family: 'Varela Round', sans-serif;	
+padding:20px;
+text-shadow: black 0.1em 0.1em 0.2em; 
+}
+
+.photos{
+display:flex;
+justify-content:space-between;
+}
+
+img{
+  border-radius: 5px;
+}
+
+
+footer{
+font-size: 12px;
+background: rgb(191,134,48);
+background: radial-gradient(circle, rgba(191,134,48,1) 0%, rgba(51,10,1,1) 100%);
+vertical-align: middle;
+border: 1px solid rgb(36, 15, 15);
+border-radius: 5px;
+height:100px;
+margin-top:7%;
+}
+
+.descriplatino{
+text-align:center;
+font-size:45px;
+font-family: 'Kalam', cursive;	
+animation: wheelHueColor 5s infinite;
+color: #F1C40F ;
+}
+
+.page{
+text-align:center;
+color: white;
+font-family: 'Varela Round', sans-serif;
+margin: 45px;
+text-shadow: black 0.1em 0.1em 0.2em; 
+}
+
+.logoaccueil{
+display:flex;
+flex-direction:column;
+align-items:center;
+margin-top:5%;		
+}
+
+.textpresentation{
+display:flex;
+flex-direction:column;
+align-items:center;	
+font-family: 'Varela Round', sans-serif;
+color: white;
+margin-top:2%;
+text-shadow: black 0.1em 0.1em 0.2em; 
+}
+
+@-webkit-keyframes myfirst1 {
+  0%   {left: 0%; right: 0%;}
+  25%  {left: -15%; right: 0%;}
+  50%  {left: -15%; right: 20%;}
+  75%  {left: 0%; right: 20%;}
+  100% {left: 0%; right: 0%;}
+}
+
+@-webkit-keyframes myfirst {
+  0%   {left: 0%; right: 0%;}
+  25%  {left: 15%; right: 0%;}
+  50%  {left: 15%; right: 20%;}
+  75%  {left: 0%; right: 20%;}
+  100% {left: 0%; right: 0%;}
+}
+
+.commentairedelete{
+text-align:center;
+font-size:30px;
+color:#E74C3C;
+font-family: 'Calistoga', cursive;	
+}
+
+.affichage{
+padding:7px;
+}
+
+
